@@ -234,7 +234,7 @@ def main():
  
 if __name__ == "__main__":
 
-	if len(sys.argv) < 3:
+	if len(sys.argv) < 4:
 		print "Usage: hr.py <highrise_api_key> <highrise_url> <output_dir>"
 		sys.exit(0)
 		
